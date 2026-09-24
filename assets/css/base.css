@@ -1,0 +1,74 @@
+html {
+    background: var(--bg)
+}
+
+body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-main);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased
+}
+
+::selection {
+    background: var(--vigar-red);
+    color: #fff
+}
+
+.container {
+    width: min(calc(100% - 40px), var(--max));
+    margin-inline: auto
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.12;
+    letter-spacing: -.025em
+}
+
+h1 {
+    font-size: clamp(2.7rem, 6vw, 5.8rem);
+    font-weight: 800
+}
+
+h2 {
+    font-size: clamp(2rem, 4vw, 3.45rem);
+    font-weight: 800
+}
+
+h3 {
+    font-size: 1.15rem
+}
+
+.lead {
+    font-size: clamp(1.05rem, 2vw, 1.28rem);
+    color: var(--muted);
+    max-width: 62ch
+}
+
+.accent {
+    color: var(--vigar-red)
+}
+
+.section {
+    padding: 64px 0 0;
+}
+
+.section--tight {
+    padding: 64px 0 0;
+}
+
+.section-head {
+    display: grid;
+    gap: 14px;
+    margin-bottom: 42px;
+    max-width: 760px
+}
+
+.muted {
+    color: var(--muted)
+}
+
