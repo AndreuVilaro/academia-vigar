@@ -465,3 +465,10 @@
     object-fit: cover;
 }
 
+
+/* Galeria ESPAI: conserva sempre la proporcio original de les fotografies */
+.gallery-photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
